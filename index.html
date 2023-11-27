@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -23,19 +22,27 @@
         }
 
         .opcao {
+            display: inline-block;
+            margin: 10px;
+}
+            button {
             display: block;
-            margin: 10px auto;
-        }
+            margin: 0 auto;
+    
+}
 
         #resultado {
-            margin-top: 20px;
-            font-weight: bold;
-        }
+           display: inline-block;
+           margin-top: 20px;
+           font-weight: bold;
+}
     </style>
 </head>
 <body>
 
     <div class="quiz-container">
+        <img id="profile-image" src="img.png" alt="Foto de Perfil">
+
         <h1>Jogo Quiz</h1>
         <div id="pergunta"></div>
 
@@ -49,19 +56,19 @@
     <script>
         const perguntas = [
             {
-                pergunta: "Qual é a capital do Brasil?",
-                opcoes: ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
-                resposta: "Brasília"
+                pergunta: "Em que Cidade Fica a FMP",
+                opcoes: ["São Jose", "Palhoça", "Paulo Lopes", "Biguaçu"],
+                resposta: "Palhoça"
             },
             {
-                pergunta: "Quem escreveu 'Dom Quixote'?",
-                opcoes: ["Machado de Assis", "Cervantes", "Shakespeare", "Garcia Lorca"],
-                resposta: "Cervantes"
+                pergunta: "Quantos cursos superiores tem FMP",
+                opcoes: ["2", "3", "4", "5"],
+                resposta: "3"
             },
             {
-                pergunta: "Quantos planetas fazem parte do sistema solar?",
-                opcoes: ["7", "8", "9", "10"],
-                resposta: "8"
+                pergunta: "Quantos semestre para ser formar tecnologo em ADS?",
+                opcoes: ["7", "5", "6", "8"],
+                resposta: "5"
             }
         ];
 
@@ -118,7 +125,15 @@
 
         carregarPergunta();
     </script>
-
+    <img src="img.gif" alt="Girl in a jacket" style="width:50px;height:50px;">
+    <!-- Inicio codigo Contador -->
+<div align="center"><a title="" href=""><img src="https://contador-gratis.com/contadores-de-visitas/081123101849665.gif" alt="rastreamento correios"></a><div><a href="" title="contador de visitas">Contador de Visitas</a></div></div>
+<!-- Fim do codigo Contador -->
+</div>
 </body>
 </html>
 
+
+   
+
+         
